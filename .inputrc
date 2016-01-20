@@ -1,0 +1,33 @@
+# Filter searching through previous commands matching current prefix using
+# the up and down arrow keys
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Words which have more than one possible completion cause the matches to be
+# listed immediately instead of ringing the bell
+set show-all-if-ambiguous on
+
+# Perform filename matching and completion in a case-insensitive fashion
+set completion-ignore-case on
+
+# Completed names which are symbolic links to directories have a slash appended
+set mark-symlinked-directories on
+
+# Alters the default completion behavior when inserting a single match into
+# the line. It’s only active when performing completion in the middle of a
+# word. If enabled, readline does not insert characters from the completion
+# that match characters after point in the word being completed,
+# so portions of the word following the cursor are not duplicated. For instance,
+# if this is enabled, attempting completion when the cursor is after the ‘e’ in
+# ‘Makefile’ will result in ‘Makefile’ rather than ‘Makefilefile’, assuming
+# there is a single possible completion.
+set skip-completed-text on
+
+# Readline will enable eight-bit input (it will not clear the eighth bit in the
+# characters it reads), regardless of what the terminal claims it can support
+set input-meta on
+
+# Readline will display characters with the eighth bit set directly rather than
+# as a meta-prefixed escape sequence
+set output-meta on
+

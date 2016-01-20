@@ -1,0 +1,41 @@
+[alias]
+  lg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+
+[color]
+  ui = auto
+
+[color "branch"]
+  current = green reverse
+  local = blue bold
+  remote = yellow bold
+
+[color "diff"]
+  frag = magenta bold
+  meta = yellow bold
+  new = green bold
+  old = red bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = blue
+
+[core]
+	editor = subl
+  whitespace = space-before-tab,indent-with-non-tab,trailing-space
+
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+
+[filter "lfs"]
+  clean = git-lfs clean %f
+  required = true
+  smudge = git-lfs smudge %f
+
+[push]
+  default = simple
+
+[user]
+  name = Mark Berger
+  email = [email address]

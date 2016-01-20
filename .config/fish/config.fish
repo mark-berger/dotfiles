@@ -14,10 +14,22 @@ alias cd.. "cd .."
 # Create intermediate directories as required
 alias mkdir "mkdir -p"
 
-## Colourize the grep commands
+# Colourize the grep commands
 alias grep 'grep --color=always'
 alias egrep 'egrep --color=auto'
 alias fgrep 'fgrep --color=auto'
+
+# Additional shortcuts
+alias lsh 'ls -ld .?*'
+
+# Git aliases
+alias gs 'git status'
+alias ga 'git add '
+alias gd 'git diff'
+alias gpl 'git pull'
+alias gcm 'git commit -m'
+alias gps 'git push'
+alias gls 'git log --stat'
 
 ################################################################################
 # COLOURS

@@ -1,4 +1,25 @@
 ################################################################################
+# ALIASES
+################################################################################
+
+# Quicker navigation
+alias .. "cd .."
+alias ... "cd ../.."
+alias .... "cd ../../.."
+alias ..... "cd ../../../.."
+
+# Fix typos
+alias cd.. "cd .."
+
+# Create intermediate directories as required
+alias mkdir "mkdir -p"
+
+## Colourize the grep commands
+alias grep 'grep --color=always'
+alias egrep 'egrep --color=auto'
+alias fgrep 'fgrep --color=auto'
+
+################################################################################
 # COLOURS
 ################################################################################
 

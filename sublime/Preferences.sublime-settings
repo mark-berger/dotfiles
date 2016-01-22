@@ -1,0 +1,34 @@
+{
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/User/base16-eighties.tmTheme",
+  "dictionary": "Packages/Language - English/en_US.dic",
+  "enable_tab_scrolling": false,
+  "ensure_newline_at_eof_on_save": true,
+  "font_face": "Office Code Pro D",
+  "font_options": "subpixel_antialias",
+  "font_size": 17.0,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "margin": 2,
+  "rulers":
+  [
+    80
+  ],
+  "show_encoding": true,
+  "sidebar_row_padding_medium": true,
+  "tab_size": 2,
+  "tabs_small": true,
+  "theme": "Afterglow-green.sublime-theme",
+  "theme_asphalt_tabs_big": false,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}

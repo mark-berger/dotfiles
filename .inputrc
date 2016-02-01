@@ -30,4 +30,3 @@ set input-meta on
 # Readline will display characters with the eighth bit set directly rather than
 # as a meta-prefixed escape sequence
 set output-meta on
-

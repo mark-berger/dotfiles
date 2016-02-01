@@ -44,7 +44,7 @@ function prompt_finish -d "Close open segments"
 end
 
 function prompt_user -d "Display current user if different from $default_user"
-  set -l BG 8d6494
+  set -l BG 875faf
   set -l FG ffffff
 
   if [ "$USER" != "$default_user" -o -n "$SSH_CLIENT" ]

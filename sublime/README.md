@@ -9,8 +9,7 @@
 
 ## Configuration
 
-* Copy [mark-berger.tmTheme](mark-berger.tmTheme) into `/Users/Mark/Library/Application Support/Sublime Text 3/Packages/User`
-* Copy [Preferences.sublime-settings](Preferences.sublime-settings) into `Settings - User (⌘ + ,)`
+* Copy [User/](User/) directory contents into `/Users/Mark/Library/Application Support/Sublime Text 3/Packages/User`
 * Install Packages below
 
 ## Packages

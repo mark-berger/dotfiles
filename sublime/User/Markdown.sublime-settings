@@ -1,0 +1,14 @@
+{
+  // Which file extensions go with this file type?
+  "extensions":
+  [
+      "md",
+      "mdown",
+      "mdwn",
+      "mmd",
+      "txt"
+  ],
+
+  // Set to true to removing trailing white space on save
+  "trim_trailing_white_space_on_save": false
+}

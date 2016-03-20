@@ -6,6 +6,7 @@
 
 * Download and install the latest version of [Sublime Text 3](https://www.sublimetext.com/3)
 * Install [Package Control](https://packagecontrol.io/installation) through the console `` Ctrl + ` ``
+* Setup the command line `subl` utility by running `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
 
 ## Configuration
 

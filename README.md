@@ -1,1 +1,1 @@
-# Mark Berger's Dotfiles
+# dotfiles

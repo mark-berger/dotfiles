@@ -1,3 +1,3 @@
 function reload -d "Reload fish config files"
-  source .config/fish/config.fish
+  source ~/.config/fish/config.fish
 end

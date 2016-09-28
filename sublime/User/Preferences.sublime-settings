@@ -20,6 +20,7 @@
   "rulers": [
     80
   ],
+  "scroll_past_end": true,
   "show_encoding": true,
   "sidebar_row_padding_medium": true,
   "tab_size": 2,

@@ -30,6 +30,8 @@ alias gpl 'git pull'
 alias gcm 'git commit -m'
 alias gps 'git push'
 alias gls 'git log --stat'
+alias gco 'git checkout'
+alias gcob 'git checkout -b'
 
 ################################################################################
 # COLOURS

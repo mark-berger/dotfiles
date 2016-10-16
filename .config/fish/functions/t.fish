@@ -1,4 +1,4 @@
-function t -d "Opens a twitch.tv stream with livestreamer"
+function t -d "Opens a twitch.tv stream with streamlink"
   set -l quality
 
   if test (count $argv) -eq 2
@@ -22,8 +22,8 @@ function t -d "Opens a twitch.tv stream with livestreamer"
       case 720p30
         set quality 720p30
     end
-    livestreamer http://www.twitch.tv/$argv[1] $quality
+    streamlink http://www.twitch.tv/$argv[1] $quality
   else
-    livestreamer http://www.twitch.tv/$argv[1] $argv[2]
+    streamlink http://www.twitch.tv/$argv[1] $argv[2]
   end
 end

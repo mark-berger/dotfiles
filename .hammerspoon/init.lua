@@ -27,7 +27,7 @@ end
 -- Cycles between the following sizes: one-half, one-third, one-quarter,
 -- three-quarters, and two-thirds.
 -- @param left Where to position the x coordinate of the window.
-function cycleHorizontal(left)
+function resize(left)
   local window = hs.window.focusedWindow()
   local frame = window:frame()
   local max = window:screen():frame()
@@ -55,14 +55,70 @@ function cycleHorizontal(left)
   window:setFrame(frame)
 end
 
+--- Moves the active window left by its width
+function cycleLeft()
+  local window = hs.window.focusedWindow()
+  local frame = window:frame()
+  local max = window:screen():frame()
+
+  if frame.x < frame.w - 5 then
+    frame.x = max.w - frame.w
+  else
+    frame.x = frame.x - frame.w
+  end
+
+  window:setFrame(frame)
+end
+
+--- Moves the active window right by its width
+function cycleRight()
+  local window = hs.window.focusedWindow()
+  local frame = window:frame()
+  local max = window:screen():frame()
+
+  if frame.x + frame.w < max.w - 5 then
+    frame.x = frame.x + frame.w
+  else
+    frame.x = 0
+  end
+
+  window:setFrame(frame)
+end
+
+--- Positions the active window in the center of the screen.
+function center()
+  local window = hs.window.focusedWindow()
+  local frame = window:frame()
+  local max = window:screen():frame()
+
+  frame.x = (max.w - frame.w) / 2
+  frame.y = (max.h - frame.h) / 2
+
+  window:setFrame(frame)
+end
+
+--- Increases the active window's size to the full screen size.
+function full()
+  local window = hs.window.focusedWindow()
+  local frame = window:frame()
+  local max = window:screen():frame()
+
+  frame.x = 0
+  frame.y = 0
+  frame.w = max.w
+  frame.h = max.h
+
+  window:setFrame(frame)
+end
+
 --- Resizes the active window and moves it to the far left.
 function left()
-  cycleHorizontal(0)
+  resize(0)
 end
 
 --- Resizes the active window and moves it to the far right.
 function right()
-  cycleHorizontal(hs.window.focusedWindow():screen():frame().w)
+  resize(hs.window.focusedWindow():screen():frame().w)
 end
 
 -- Watch paths recursively for changes
@@ -71,6 +127,10 @@ w = hs.pathwatcher.new(home .. "/.hammerspoon/", reloadConfig):start()
 -- Setup global keyboard shortcuts
 hs.hotkey.bind(keys, 'Left', left)
 hs.hotkey.bind(keys, 'Right', right)
+hs.hotkey.bind(keys, 'C', center)
+hs.hotkey.bind(keys, 'F', full)
+hs.hotkey.bind(keys, ',', cycleLeft)
+hs.hotkey.bind(keys, '.', cycleRight)
 
 -- Display a notification when Hammerspoon has finished loading
 hs.notify.show("Hammerspoon reloaded!", "", "~/.hammerspoon/init.lua")

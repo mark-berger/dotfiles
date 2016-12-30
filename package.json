@@ -1,0 +1,14 @@
+{
+  "name": "global_packages",
+  "version": "1.0.0",
+  "description": "NPM packages to install globally.",
+  "author": "mark-berger",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "*",
+    "diff-so-fancy": "*",
+    "n": "*",
+    "vtop": "*",
+    "yarn": "*"
+  }
+}

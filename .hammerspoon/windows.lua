@@ -2,8 +2,7 @@
 hs.window.animationDuration = 0
 
 --- Resizes the active window and moves it to the left or right side.
--- Cycles between the following sizes: one-half, one-third, one-quarter,
--- three-quarters, and two-thirds.
+-- Cycles between the following sizes: one-half, one-third, and two-thirds.
 -- @param left Where to position the x coordinate of the window.
 function resize(left)
   local window = hs.window.focusedWindow()
@@ -17,12 +16,6 @@ function resize(left)
     frame.x = left * 2 / 3
     frame.w = max.w / 3
   elseif frame.w == math.floor(max.w / 3) then
-    frame.x = left * 3 / 4
-    frame.w = max.w / 4
-  elseif frame.w == max.w / 4 then
-    frame.x = left / 4
-    frame.w = max.w * 3 / 4
-  elseif frame.w == math.floor(max.w * 3 / 4) then
     frame.x = left / 3
     frame.w = max.w * 2 / 3
   else

@@ -23,6 +23,8 @@ function resize(left)
     frame.w = max.w / 2
   end
 
+  frame.x = frame.x + max.x
+
   window:setFrame(frame)
 end
 
@@ -32,8 +34,10 @@ function cycleLeft()
   local frame = window:frame()
   local max = window:screen():frame()
 
-  if frame.x < frame.w - 5 then
+  if frame.x < frame.w then
     frame.x = max.w - frame.w
+  elseif frame.x == max.x then
+    frame.x = max.x + max.w - frame.w
   else
     frame.x = frame.x - frame.w
   end
@@ -47,39 +51,42 @@ function cycleRight()
   local frame = window:frame()
   local max = window:screen():frame()
 
-  if frame.x + frame.w < max.w - 5 then
+  if frame.x + frame.w < max.x + max.w - 5 then
     frame.x = frame.x + frame.w
   else
-    frame.x = 0
+    frame.x = max.x
   end
 
   window:setFrame(frame)
 end
 
+-- Moves the active window to the previous display (left/west)
+function previousDisplay()
+  local window = hs.window.focusedWindow()
+
+  window:moveOneScreenWest(false, true)
+end
+
+-- Moves the active window to the next display (right/east)
+function nextDisplay()
+  local window = hs.window.focusedWindow()
+
+  window:moveOneScreenEast(false, true)
+end
+
 --- Positions the active window in the center of the screen.
 function center()
   local window = hs.window.focusedWindow()
-  local frame = window:frame()
-  local max = window:screen():frame()
+  local screen = hs.screen.mainScreen()
 
-  frame.x = (max.w - frame.w) / 2
-  frame.y = (max.h - frame.h) / 2
-
-  window:setFrame(frame)
+  window:centerOnScreen(screen, true)
 end
 
 --- Increases the active window's size to the full screen size.
 function full()
   local window = hs.window.focusedWindow()
-  local frame = window:frame()
-  local max = window:screen():frame()
 
-  frame.x = 0
-  frame.y = 0
-  frame.w = max.w
-  frame.h = max.h
-
-  window:setFrame(frame)
+  window:maximize()
 end
 
 --- Resizes the active window and moves it to the far left.

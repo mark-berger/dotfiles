@@ -17,10 +17,12 @@ function t -d "Opens a twitch.tv stream with streamlink"
         set quality source
       case 1080p60
         set quality 1080p60
+      case 1080p
+        set quality 1080p
       case 720p60
         set quality 720p60
-      case 720p30
-        set quality 720p30
+      case 720p
+        set quality 720p
     end
     streamlink http://www.twitch.tv/$argv[1] $quality
   else

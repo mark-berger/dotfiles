@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "Consolas",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.renderIndentGuides": true,
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "gitlens.blame.annotation.activeLine": "hover",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontLigatures": true,
+  "terminal.integrated.fontSize": 14,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#282828",
+    "statusBar.foreground": "#aaa",
+    "statusBar.noFolderBackground": "#282828"
+  },
+  "workbench.colorTheme": "Tomorrow Night Eighties",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.welcome.enabled": false
+}

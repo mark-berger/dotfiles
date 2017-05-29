@@ -2,6 +2,8 @@ function t -d "Opens a twitch.tv stream with streamlink"
   set -l quality
 
   if test (count $argv) -eq 2
+    open "https://www.twitch.tv/$argv[1]/chat?popout="
+
     switch $argv[2]
       case a audio
         set quality audio
@@ -19,6 +21,8 @@ function t -d "Opens a twitch.tv stream with streamlink"
         set quality 1080p60
       case 1080p
         set quality 1080p
+      case 900p60
+        set quality 900p60
       case 720p60
         set quality 720p60
       case 720p

@@ -12,7 +12,6 @@
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "gitlens.blame.annotation.activeLine": "hover",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "terminal.external.osxExec": "iTerm.app",

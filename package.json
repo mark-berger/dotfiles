@@ -5,10 +5,15 @@
   "author": "mark-berger",
   "license": "MIT",
   "dependencies": {
-    "bower": "*",
     "diff-so-fancy": "*",
+    "eslint": "*",
+    "jscs": "*",
     "n": "*",
+    "prettier": "*",
+    "pug": "*",
+    "typescript": "*",
     "vtop": "*",
+    "vue-cli": "*",
     "yarn": "*"
   }
 }

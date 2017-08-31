@@ -1,9 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
   "editor.cursorBlinking": "smooth",
-  "editor.fontFamily": "Consolas",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
   "editor.rulers": [
@@ -24,7 +24,7 @@
     "statusBar.foreground": "#aaa",
     "statusBar.noFolderBackground": "#282828"
   },
-  "workbench.colorTheme": "Tomorrow Night Eighties",
+  "workbench.colorTheme": "Bimbo Theme",
   "workbench.iconTheme": "vs-minimal",
-  "workbench.welcome.enabled": false
+  "workbench.startupEditor": "newUntitledFile"
 }

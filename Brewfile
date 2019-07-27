@@ -1,6 +1,7 @@
 tap 'caskroom/cask'
 tap 'laurent22/massren'
 
+brew 'exa'
 brew 'fish'
 brew 'git'
 brew 'go'

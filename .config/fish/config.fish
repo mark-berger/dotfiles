@@ -20,6 +20,7 @@ alias egrep 'egrep --color=auto'
 alias fgrep 'fgrep --color=auto'
 
 # Additional shortcuts
+alias la 'exa -abghl --time-style=long-iso --git'
 alias lsh 'ls -ld .?*'
 
 # Git aliases

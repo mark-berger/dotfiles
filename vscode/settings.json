@@ -3,28 +3,33 @@
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "selection",
   "editor.rulers": [
-    80
+    80,
+    100
   ],
+  "editor.smoothScrolling": true,
   "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "telemetry.enableTelemetry": false,
+  "npm.enableScriptExplorer": true,
   "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontLigatures": true,
   "terminal.integrated.fontSize": 14,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "statusBar.background": "#282828",
     "statusBar.foreground": "#aaa",
     "statusBar.noFolderBackground": "#282828"
   },
   "workbench.colorTheme": "Bimbo Theme",
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.commandPalette.preserveInput": true,
   "workbench.startupEditor": "newUntitledFile"
 }

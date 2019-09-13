@@ -5,9 +5,9 @@
   "author": "mark-berger",
   "license": "MIT",
   "dependencies": {
+    "autogit": "*",
     "diff-so-fancy": "*",
     "eslint": "*",
-    "jscs": "*",
     "n": "*",
     "npm-check-updates": "*",
     "npx": "*",

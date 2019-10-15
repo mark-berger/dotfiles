@@ -29,7 +29,7 @@
     "statusBar.foreground": "#aaa",
     "statusBar.noFolderBackground": "#282828"
   },
-  "workbench.colorTheme": "Bimbo Theme",
+  "workbench.colorTheme": "Gatito Theme",
   "workbench.commandPalette.preserveInput": true,
   "workbench.startupEditor": "newUntitledFile"
 }

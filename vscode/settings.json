@@ -1,18 +1,28 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.diagnosticLevel": "Hint",
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": "true",
   "editor.fontSize": 14,
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "selection",
   "editor.rulers": [
-    80,
-    100
+    80
   ],
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
   "explorer.openEditors.visible": 0,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,

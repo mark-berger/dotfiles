@@ -1,3 +1,4 @@
+brew 'bat'
 brew 'exa'
 brew 'fish'
 brew 'git'

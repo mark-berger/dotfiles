@@ -5,10 +5,12 @@
   "author": "mark-berger",
   "license": "MIT",
   "dependencies": {
+    "@vue/cli": "*",
     "autogit": "*",
     "diff-so-fancy": "*",
     "eslint": "*",
     "n": "*",
+    "npkill": "*",
     "npm-check-updates": "*",
     "npx": "*",
     "prettier": "*",
@@ -17,7 +19,6 @@
     "tslint": "*",
     "typescript": "*",
     "vtop": "*",
-    "vue-cli": "*",
     "yarn": "*"
   }
 }

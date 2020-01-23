@@ -12,7 +12,6 @@
     "n": "*",
     "npkill": "*",
     "npm-check-updates": "*",
-    "npx": "*",
     "prettier": "*",
     "pug": "*",
     "serve": "*",

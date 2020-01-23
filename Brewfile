@@ -85,7 +85,6 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'xld'
 
-
 mas 'Bandwidth+', id: 490461369
 mas 'Blackmagic Disk Speed Test', id: 425264550
 mas 'iMovie', id: 408981434

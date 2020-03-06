@@ -17,6 +17,7 @@ brew 'minikube'
 brew 'node'
 brew 'openssl'
 brew 'pass'
+brew 'pgcli'
 brew 'pngcrush'
 brew 'python'
 brew 'ruby'
@@ -28,6 +29,8 @@ brew 'tree'
 brew 'unar'
 brew 'youtube-dl'
 brew 'zopfli'
+
+brew link --force libpq
 
 cask 'xquartz'
 

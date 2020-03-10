@@ -7,13 +7,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.diagnosticLevel": "Hint",
+  "cSpell.enableFiletypes": [
+    "sql"
+  ],
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": "true",
   "editor.fontSize": 14,
+  "editor.minimap.showSlider": "always",
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
-  "editor.renderWhitespace": "selection",
   "editor.rulers": [
     80
   ],

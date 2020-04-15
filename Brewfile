@@ -19,6 +19,7 @@ brew 'openssl'
 brew 'pass'
 brew 'pgcli'
 brew 'pngcrush'
+brew 'postgresql'
 brew 'python'
 brew 'ruby'
 brew 'screenfetch'
@@ -31,8 +32,6 @@ brew 'youtube-dl'
 brew 'zopfli'
 
 brew link --force libpq
-
-cask 'xquartz'
 
 cask 'adobe-acrobat-reader'
 cask 'alfred'

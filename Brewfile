@@ -30,6 +30,7 @@ brew 'streamlink'
 brew 'ssh-copy-id'
 brew 'tree'
 brew 'unar'
+brew 'watch'
 brew 'youtube-dl'
 brew 'zopfli'
 

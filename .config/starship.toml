@@ -1,0 +1,31 @@
+add_newline = false
+
+[[battery.display]]
+style = "bold red"
+threshold = 10
+
+[[battery.display]]
+use_symbol_for_status = true
+threshold = 30
+
+[character]
+symbol = "\uE0B0"
+style_success = "bold purple"
+use_symbol_for_status = true
+
+[cmd_duration]
+min_time = 500
+
+[directory]
+truncation_length = 8
+truncate_to_repo = false
+
+[docker]
+disabled = false
+
+[golang]
+symbol = "go "
+
+[kubernetes]
+disabled = false
+style = "bold yellow underline"

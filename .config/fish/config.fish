@@ -72,3 +72,5 @@ set fish_pager_color_description ffdf5f          #221
 set fish_pager_color_prefix 9e9e9e               #247
 set fish_pager_color_progress ffdf5f             #221
 set fish_pager_color_secondary dadada            #253
+
+starship init fish | source

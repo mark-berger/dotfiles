@@ -1,105 +1,111 @@
-brew 'bat'
-brew 'deno'
-brew 'exa'
-brew 'fish'
-brew 'git'
-brew 'go'
-brew 'helm'
-brew 'helmfile'
-brew 'highlight'
-brew 'htop'
-brew 'httpstat'
-brew 'icdiff'
-brew 'ifstat'
-brew 'imagemagick'
-brew 'jq'
-brew 'lua'
-brew 'massren'
-brew 'minikube'
-brew 'node'
-brew 'openssl'
-brew 'pass'
-brew 'pinentry-mac'
-brew 'pgcli'
-brew 'pngcrush'
-brew 'postgresql'
-brew 'python'
-brew 'ruby'
-brew 'screenfetch'
-brew 'sqlite'
-brew 'starship'
-brew 'streamlink'
-brew 'ssh-copy-id'
-brew 'tree'
-brew 'unar'
-brew 'watch'
-brew 'youtube-dl'
-brew 'zopfli'
-
-brew link --force libpq
-
-cask 'alfred'
-cask 'android-file-transfer'
-cask 'appcleaner'
-cask 'bettertouchtool'
-cask 'brave-browser'
-cask 'calibre'
-cask 'disk-inventory-x'
-cask 'docker'
-cask 'dolphin'
-cask 'dropbox'
-cask 'firefox'
-cask 'gimp'
-cask 'google-chrome'
-cask 'gpg-suite'
-cask 'hammerspoon'
-cask 'handbrake'
-cask 'heaven'
-cask 'iina'
-cask 'inkscape'
-cask 'insomnia'
-cask 'iterm2'
-cask 'itsycal'
-cask 'java'
-cask 'jdownloader'
-cask 'jumpcut'
-cask 'keepassxc'
-cask 'mactex'
-cask 'mammon'
-cask 'menumeters'
-cask 'mkvtoolnix'
-cask 'mkvtools'
-cask 'monitorcontrol'
-cask 'mpv'
-cask 'multipatch'
-cask 'netnewswire'
-cask 'openemu'
-cask 'opera'
-cask 'pacifist'
-cask 'paintbrush'
-cask 'pencil'
-cask 'postgres'
-cask 'qbittorrent'
-cask 'skim'
-cask 'sloth'
-cask 'steam'
-cask 'sublime-text'
-cask 'syncthing'
-cask 'tableplus'
-cask 'transmission'
-cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'xld'
-
-mas 'Bandwidth+', id: 490461369
-mas 'Blackmagic Disk Speed Test', id: 425264550
-mas 'iMovie', id: 408981434
-mas 'Keynote', id: 409183694
-mas 'LittleIpsum', id: 405772121
-mas 'Media-Info', id: 550128418
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Sip', id: 507257563
-mas 'The Unarchiver', id: 425424353
-mas 'Xcode', id: 497799835
+tap "golangci/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "johanhaleby/kubetail"
+brew "bat"
+brew "deno"
+brew "go"
+brew "dep"
+brew "exa"
+brew "fish"
+brew "git"
+brew "openssl@1.1"
+brew "sqlite"
+brew "glib"
+brew "gnutls"
+brew "gnupg"
+brew "helm"
+brew "helmfile"
+brew "hey"
+brew "lua"
+brew "highlight"
+brew "htop"
+brew "httpstat"
+brew "icdiff"
+brew "ifstat"
+brew "imagemagick"
+brew "jq"
+brew "kubernetes-cli"
+brew "libpq"
+brew "mas"
+brew "massren"
+brew "minikube"
+brew "node"
+brew "tree"
+brew "pass"
+brew "pgcli"
+brew "pgformatter"
+brew "pinentry-mac"
+brew "pngcrush"
+brew "ruby"
+brew "screenfetch"
+brew "starship"
+brew "streamlink"
+brew "unar"
+brew "unrar"
+brew "watch"
+brew "youtube-dl"
+brew "zig"
+brew "zopfli"
+brew "golangci/tap/golangci-lint"
+brew "johanhaleby/kubetail/kubetail"
+cask "alfred"
+cask "android-file-transfer"
+cask "appcleaner"
+cask "bettertouchtool"
+cask "calibre"
+cask "disk-inventory-x"
+cask "docker"
+cask "dolphin"
+cask "dropbox"
+cask "firefox"
+cask "gimp"
+cask "google-chrome"
+cask "gpg-suite"
+cask "hammerspoon"
+cask "handbrake"
+cask "heaven"
+cask "iina"
+cask "inkscape"
+cask "insomnia"
+cask "iterm2"
+cask "itsycal"
+cask "java"
+cask "jdownloader"
+cask "jumpcut"
+cask "keepassxc"
+cask "menumeters"
+cask "mkvtoolnix"
+cask "mkvtools"
+cask "monitorcontrol"
+cask "mpv"
+cask "netnewswire"
+cask "openemu"
+cask "paintbrush"
+cask "pencil"
+cask "postgres"
+cask "qbittorrent"
+cask "skim"
+cask "sloth"
+cask "steam"
+cask "sublime-text"
+cask "syncthing"
+cask "tableplus"
+cask "telegram"
+cask "transmission"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+cask "xld"
+mas "Bandwidth+", id: 490461369
+mas "Cinebench", id: 1438772273
+mas "Disk Speed Test", id: 425264550
+mas "Keynote", id: 409183694
+mas "LittleIpsum", id: 405772121
+mas "Media-Info", id: 550128418
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Sip", id: 507257563
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835

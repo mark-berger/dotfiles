@@ -43,18 +43,18 @@ command=~/.config/i3blocks/memory/memory
 interval=5
 label=<span color="#ffcc66"> </span>
 
-# Fetch the public IP address only on startup
-[public-ip]
-command=wget -qO - icanhazip.com
-interval=once
-label=<span color="#66cccc"> </span>
-
 # Network bandwidth
 [bandwidth]
 command=~/.config/i3blocks/bandwidth/bandwidth
 interval=1
 INLABEL=<span color="#99cc99"> </span>
 OUTLABEL=<span color="#6699cc">祝 </span>
+
+# Fetch the public IP address only on startup
+[public-ip]
+command=wget -qO - icanhazip.com
+interval=once
+label=<span color="#66cccc"> </span>
 
 # Print the current date and time
 [time]

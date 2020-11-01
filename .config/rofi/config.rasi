@@ -1,0 +1,5 @@
+configuration {
+	modi: "drun,window";
+  show-icons: true;
+  theme: "mark-berger";
+}

@@ -1,0 +1,5 @@
+cursor:
+  style: Beam
+  unfocused_hollow: true
+
+live_config_reload: true

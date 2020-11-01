@@ -62,3 +62,10 @@ command=date '+%Y-%m-%d %H:%M:%S'
 interval=1
 label=<span color="#f2777a"> </span>
 
+[shutdown_menu]
+command=~/.config/i3blocks/shutdown_menu/shutdown_menu
+full_text=<span color="#cccccc"> </span>
+ENABLE_CONFIRMATIONS=false
+LAUNCHER=rofi
+ROFI_TEXT=Menu:
+ROFI_OPTIONS= -theme ~/.config/rofi/mark-berger.rasi

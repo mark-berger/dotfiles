@@ -1,0 +1,64 @@
+# Globals
+align=center
+color=#ffffff
+markup=pango
+separator=false
+separator_block_width=20
+
+# Number of Arch updates
+[arch-update]
+command=checkupdates | wc -l
+interval=once
+label=<span color="#1793D1"> </span>
+
+# CPU usage
+[cpu_usage2]
+command=~/.config/i3blocks/cpu_usage2/cpu_usage2
+interval=persist
+label=<span color="#999999"> </span>
+LABEL=
+WARN_PERCENT=65
+CRIT_PERCENT=80
+DECIMALS=1
+
+# Temperature
+[temperature]
+command=~/.config/i3blocks/temperature/temperature
+interval=5
+label=<span color="#f99157"> </span>
+LABEL=
+T_WARN=75
+T_CRIT=90
+SENSOR_CHIP="coretemp-isa-0000"
+
+# Disk usage
+[disk]
+command=df -h /home | awk 'FNR==2{print $4}'
+interval=10
+label=<span color="#cc99cc"> </span>
+
+# Memory usage
+[memory]
+command=~/.config/i3blocks/memory/memory
+interval=5
+label=<span color="#ffcc66"> </span>
+
+# Fetch the public IP address only on startup
+[public-ip]
+command=wget -qO - icanhazip.com
+interval=once
+label=<span color="#66cccc"> </span>
+
+# Network bandwidth
+[bandwidth]
+command=~/.config/i3blocks/bandwidth/bandwidth
+interval=1
+INLABEL=<span color="#99cc99"> </span>
+OUTLABEL=<span color="#6699cc">祝 </span>
+
+# Print the current date and time
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=1
+label=<span color="#f2777a"> </span>
+

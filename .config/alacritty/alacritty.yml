@@ -2,4 +2,10 @@ cursor:
   style: Beam
   unfocused_hollow: true
 
+font:
+  normal:
+    family: Fira Code Nerd Font
+    style: Regular
+  size: 12
+
 live_config_reload: true

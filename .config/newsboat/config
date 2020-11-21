@@ -1,0 +1,12 @@
+auto-reload         yes
+
+color               info              color208  black      bold
+color               listfocus         black     color230   bold
+color               listfocus_unread  color88   color230   bold
+
+datetime-format     "%F %R"
+
+refresh-on-startup  yes
+
+reload-time         10
+reload-threads      3

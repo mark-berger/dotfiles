@@ -216,8 +216,7 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 # Function keys
 bindsym $mod+F1 exec firefox
-bindsym $mod+F2 exec pcmanfm
-bindsym $mod+Shift+F2 exec pcmanfm_pkexec
+bindsym $mod+F2 exec dolphin
 bindsym $mod+F3 exec ranger
 
 # picom

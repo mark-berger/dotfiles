@@ -15,7 +15,7 @@ My collection of dotfiles, config settings, and other useful setup scripts.
     cp -r fish/ ~/.config/fish/
     set --append --universal fish_user_paths /usr/local/bin
     ```
-4. Install global npm packages with `sudo ./scripts/npmsh`
+4. Install global npm packages with `sudo ./scripts/npm.sh`
 
 ### Arch Linux
 
@@ -28,7 +28,7 @@ My collection of dotfiles, config settings, and other useful setup scripts.
     cp -r fish/ ~/.config/fish/
     set --append --universal fish_user_paths /usr/bin
     ```
-4. Install global npm packages with `sudo ./scripts/npmsh`
+4. Install global npm packages with `sudo ./scripts/npm.sh`
 
 ## License
 

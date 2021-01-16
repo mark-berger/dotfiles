@@ -6,6 +6,8 @@ color               listfocus_unread  color88   color230   bold
 
 datetime-format     "%F %R"
 
+max-items           100
+
 refresh-on-startup  yes
 
 reload-time         10

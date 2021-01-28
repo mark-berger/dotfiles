@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S \
+pacman -Sy \
   alacritty \
   bat \
   code \
@@ -23,7 +23,6 @@ pacman -S \
   npm \
   rofi \
   streamlink \
-  sublime-text \
   syncthing \
   unrar \
   youtube-dl \

@@ -186,6 +186,10 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
+# Move workspaces
+bindsym $mod+Ctrl+Shift+Left move workspace to output left
+bindsym $mod+Ctrl+Shift+Right move workspace to output right
+
 # Hide/unhide bar
 bindsym $mod+m bar mode toggle
 
@@ -217,6 +221,7 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Function keys
 bindsym $mod+F1 exec firefox
 bindsym $mod+F2 exec dolphin
+bindsym $mod+Shift+F2 exec pcmanfm_pkexec
 bindsym $mod+F3 exec ranger
 
 # picom
@@ -316,6 +321,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
+exec --no-startup-id ~/.screenlayout/default.sh
 
 # PulseAudio
 exec --no-startup-id start-pulseaudio-x11

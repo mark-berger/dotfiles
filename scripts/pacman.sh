@@ -12,6 +12,7 @@ pacman -Sy \
   gimp \
   git \
   i3blocks \
+  inkscape \
   inter-font \
   keepassxc \
   libreoffice-fresh \

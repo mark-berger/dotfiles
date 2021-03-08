@@ -7,4 +7,5 @@ cd -
 
 yay -S \
   chatterino2-git \
-  nerd-fonts-fira-code
+  nerd-fonts-fira-code \
+  pencil

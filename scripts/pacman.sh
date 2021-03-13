@@ -8,6 +8,7 @@ pacman -Sy \
   exa \
   firefox \
   fish \
+  flameshot \
   galculator \
   gimp \
   git \
